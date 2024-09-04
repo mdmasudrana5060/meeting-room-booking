@@ -1,5 +1,4 @@
 import dotenv from 'dotenv';
-import { PRECONDITION_FAILED } from 'http-status';
 import path from 'path';
 
 dotenv.config({ path: path.join((process.cwd(), '.env')) });
